@@ -295,8 +295,8 @@ a {
 .main{
     background-image: url(../images/shapes/blue-shape.svg);
     background-repeat: no-repeat;
-    background-position: top;
-    background-size: 220rem;
+    background-position: center 0;
+    background-size: 250rem;
     padding-bottom: 500rem;
 }
 .services{

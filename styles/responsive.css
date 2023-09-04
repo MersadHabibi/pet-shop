@@ -1,0 +1,147 @@
+@media screen and (max-width: 1400px) {
+    .header{
+        background-size: 180rem;
+        background-position: -10rem -35rem;
+    }
+}
+/* 
+
+    ----
+
+*/
+@media screen and (max-width: 1200px) {
+    .header{
+        background-size: 150rem;
+        background-position: -10rem -22rem;
+    }
+}
+/* 
+
+    ----
+
+*/
+@media screen and (max-width: 992px) {
+    .display-none{
+        display: none;
+    }
+    .header{
+        background-position: -10rem -22rem;
+        height: 61rem;
+    }
+    .header-content{
+        padding-top: 10rem;
+    }
+    .main{
+        background-position: center -10rem;
+    }
+    .services{
+        padding-top: 10rem;
+    }
+    .services__content{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    .service__wrapper{
+        margin: 2rem auto 0 auto;
+    }
+    .swiper {
+        overflow: hidden !important;
+    }
+    .next-slide-btn{
+        left: -2rem;
+    }
+    .prev-slide-btn{
+        right: -2rem;
+    }
+    .service__wrapper{
+        width: auto;
+    }
+    .service{
+        padding: 6rem 2rem 5rem 2rem;
+    }
+    .comments{
+        padding-top: 10rem;
+    }
+}
+/* 
+
+    ----
+
+*/
+@media screen and (max-width: 768px) {
+    .navbar{
+        display: none;
+    }
+    .menu-btn{
+        display: flex;
+    }
+    .header{
+        background-size: 170rem;
+        background-position: -6rem -33rem;
+        height: 61rem;
+    }
+    .header-description{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .next-slide-btn,
+    .prev-slide-btn{
+        display: none;
+    }
+    .comment{
+        width: auto;
+        margin: 1rem;
+    }
+    .swiper-pagination{
+        display: block;
+    }
+}
+/* 
+
+    ----
+
+*/
+@media screen and (max-width: 576px) {
+    .section__title{
+        font-size: 3.5rem;
+    }
+
+}
+/* 
+
+    ----
+
+*/
+@media screen and (max-width: 470px) {
+    .header{
+        background-position: -6rem -28rem;
+        height: 66rem;
+    }
+    .header__title{
+        font-size: 4rem;
+    }
+    .header-btn__wrapper{
+        flex-direction: column;
+        width: 100%;
+        margin-top: 1rem;
+    }
+    .header__btn{
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+@media screen and (min-width: 768px) {
+    .mobile-menu{
+        display: none;
+    }
+}

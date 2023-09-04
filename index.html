@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pet shop</title>
+    <link rel="icon" type="image/png" href="images/icons/logo.svg">
+    <link rel="stylesheet" href="styles/app.css">
+    <link rel="stylesheet" href="styles/responsive.css">
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <div class="nav-logo">
+                    <img class="nav-logo__icon" src="images/icons/logo.svg" alt="logo">
+                </div>
+                <ul class="navbar">
+                    <li class="navbar__item">
+                        <a class="navbar__link" href="#">Location</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a class="navbar__link" href="#">Blog</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a class="navbar__link" href="#">Services</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a class="navbar__link" href="#">About Us</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a class="navbar__link" href="#">Franchise with Us</a>  
+                    </li>
+                </ul>
+                <div class="menu-btn">
+                    <span class="menu-btn__icon"></span>
+                </div>
+                <div class="mobile-menu">
+                    <div class="mobile-menu__wrapper">
+                        <div class="close-btn">
+                            <span class="close-btn__icon"></span>
+                        </div>
+                        <h3 class="mobile-menu__title">Pet Shop</h3>
+                        <ul class="mobile-navbar">
+                            <li class="mobile-navbar__item">
+                                <a href="#" class="mobile-navbar__link">Location</a>
+                            </li>
+                            <li class="mobile-navbar__item">
+                                <a href="#" class="mobile-navbar__link">Blog</a>
+                            </li>
+                            <li class="mobile-navbar__item">
+                                <a href="#" class="mobile-navbar__link">Services</a>
+                            </li>
+                            <li class="mobile-navbar__item">
+                                <a href="#" class="mobile-navbar__link">About Us</a>
+                            </li>
+                            <li class="mobile-navbar__item">
+                                <a href="#" class="mobile-navbar__link">Franchise with Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div class="header-content">
+                <div class="row">
+                    <div class="col-12 col-lg-6">
+                        <div class="header-description">
+                            <h1 class="header__title">We Get Pet Care!</h1>
+                            <h3 class="header__caption">For over 17 Years, Fetch! Pet Care has been a trusted partner in keeping pets healthy and happy!</h3>
+                            <div class="header-btn__wrapper">
+                                <a class="header__btn">Schedule Service</a>
+                                <span class="header__call">Or Call 866.338.2463</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6 display-none">
+                        <div class="header-image">
+                            <div class="image-circle">
+                                <div class="image__wrapper">
+                                    <img src="images/header-dog.png" alt="header pet" class="image-circle__img">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container">
+            <div class="services">
+                <div class="row">
+                    <div class="col-12 col-lg-6">
+                        <div class="services__content">
+                            <h2 class="section__title">Our Services</h2>
+                            <h3 class="services__caption">National Brand With a Local Feel. <br> Experience the Fetch! Difference</h3>
+                            <label for="" class="services__label">Enter Your Location and Fetch Our Services</label>
+                            <form class="services__form">
+                                <input class="services__input" type="text" placeholder="Zip Code">
+                                <button class="services__button">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="31.133" height="15.972" viewBox="0 0 31.133 15.972">
+                                        <g id="Group_46" data-name="Group 46" transform="translate(-369.867 -1717.214)">
+                                          <path id="Path_201" data-name="Path 201" d="M370.867,1725H400" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"/>
+                                          <path id="Path_202" data-name="Path 202" d="M391.943,1708.629l6.572,6.572-6.572,6.572" transform="translate(1.485 10)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                                        </g>
+                                      </svg>                                      
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        <div class="service__wrapper">
+                            <div class="row">
+                                <div class="col-12 col-sm-6">
+                                    <div class="service">
+                                        <img src="images/icons/dog.png" alt="" class="service__icon">
+                                        <div class="service__title">Dog Walking</div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <div class="service">
+                                        <img src="images/icons/pet-sit.png" alt="" class="service__icon">
+                                        <div class="service__title">Pet Sitting</div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <div class="service">
+                                        <img src="images/icons/pet-house.png" alt="" class="service__icon">
+                                        <div class="service__title">Overnight Care</div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <div class="service">
+                                        <img src="images/icons/pet-foot.png" alt="" class="service__icon">
+                                        <div class="service__title">Other Services</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="comments">
+                <h2 class="section__title">Here's what pet owners have to say about Fetch! Pet Care...</h2>
+                <div class="slider-wrapper">
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="comment">
+                                    <div class="comment__profile">
+                                        <img src="images/profile.png" alt="profile" class="profile-image">
+                                    </div>
+                                    <h4 class="comment__name">Kenned Dsouza</h4>
+                                    <p class="comment__content">" I like that I got to meet the dog Walker who is walking
+                                        my dog daily and consult with her. I also appreciate the
+                                        daily communication I get about the dog
+                                        and how my dog is doing"
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="comment">
+                                    <div class="comment__profile">
+                                        <img src="images/profile.png" alt="profile" class="profile-image">
+                                    </div>
+                                    <h4 class="comment__name">Kenned Dsouza</h4>
+                                    <p class="comment__content">" I like that I got to meet the dog Walker who is walking
+                                        my dog daily and consult with her. I also appreciate the
+                                        daily communication I get about the dog
+                                        and how my dog is doing"
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="comment">
+                                    <div class="comment__profile">
+                                        <img src="images/profile.png" alt="profile" class="profile-image">
+                                    </div>
+                                    <h4 class="comment__name">Kenned Dsouza</h4>
+                                    <p class="comment__content">" I like that I got to meet the dog Walker who is walking
+                                        my dog daily and consult with her. I also appreciate the
+                                        daily communication I get about the dog
+                                        and how my dog is doing"
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                    <div class="next-slide-btn">
+                        <svg width="31.133" height="15.972" viewBox="0 0 31.133 15.972">
+                            <g id="Group_46" data-name="Group 46" transform="translate(-369.867 -1717.214)">
+                              <path id="Path_201" data-name="Path 201" d="M370.867,1725H400" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"/>
+                              <path id="Path_202" data-name="Path 202" d="M391.943,1708.629l6.572,6.572-6.572,6.572" transform="translate(1.485 10)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                            </g>
+                        </svg> 
+                    </div>
+                    <div class="prev-slide-btn">
+                        <svg width="31.133" height="15.972" viewBox="0 0 31.133 15.972">
+                            <g id="Group_46" data-name="Group 46" transform="translate(-369.867 -1717.214)">
+                              <path id="Path_201" data-name="Path 201" d="M370.867,1725H400" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"/>
+                              <path id="Path_202" data-name="Path 202" d="M391.943,1708.629l6.572,6.572-6.572,6.572" transform="translate(1.485 10)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                            </g>
+                        </svg> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="scripts/app.js"></script>
+</body>
+</html>

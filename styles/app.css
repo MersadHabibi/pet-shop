@@ -60,6 +60,31 @@ a {
 
 */
 
+/* 
+
+        shapes
+
+*/
+.small-yellow-circle{
+    position: absolute;
+    top: 220rem;
+    left: -26rem;
+    z-index: -1;
+    background-color: var(--third-color);
+    width: 40rem;
+    height: 40rem;
+    border-radius: 50%;
+}
+.big-yellow-circle{
+    position: absolute;
+    top: 140rem;
+    right: -50rem;
+    z-index: -1;
+    background-color: var(--third-color);
+    width: 100rem;
+    height: 100rem;
+    border-radius: 50%;
+}
 /*
 
 -- App Style --
@@ -160,6 +185,7 @@ a {
     padding: 4rem 4rem;
     box-shadow: 0 0 2rem rgba(0,0,0,0.1);
     transition: var(--first-transition);
+    z-index: 10000;
 }
 .mobile-menu--open{
     left: 0;
@@ -297,7 +323,8 @@ a {
     background-repeat: no-repeat;
     background-position: center 0;
     background-size: 250rem;
-    padding-bottom: 500rem;
+    position: relative;
+    padding-bottom: 200rem;
 }
 .services{
     padding-top: 20rem;
@@ -472,4 +499,39 @@ a {
 .prev-slide-btn{
     box-shadow: 0 3px 6px rgba(253,104,69,.30);
     right: 0;
+}
+/* 
+
+    Works
+
+*/
+.works-section{
+    padding-top: 20rem;
+    position: relative;
+}
+.works__wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    background-image: url(../images/shapes/works-background.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 33rem;
+    width: 53rem;
+}
+.work{
+    background-color: var(--white);
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem 2rem 3rem 2rem;
+    gap: 3rem;
+    box-shadow: 0 3px 6px rgba(0,0,0,.16);
+    width: 20rem;
+    height: 20rem;
+}
+.work:nth-child(2){
+    align-self: flex-end;
 }

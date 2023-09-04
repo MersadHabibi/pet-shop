@@ -4,6 +4,9 @@
     }
 }
 @media screen and (max-width: 1400px) {
+    .big-yellow-circle{
+        right: -55rem;
+    }
     .header{
         background-size: 180rem;
         background-position: -10rem -35rem;
@@ -15,10 +18,16 @@
 
 */
 @media screen and (max-width: 1200px) {
+    .big-yellow-circle{
+        right: -60rem;
+        width: 90rem;
+        height: 90rem;
+    }
     .header{
         background-size: 150rem;
         background-position: -10rem -22rem;
     }
+
 }
 /* 
 
@@ -26,6 +35,18 @@
 
 */
 @media screen and (max-width: 992px) {
+    .big-yellow-circle{
+        top: 165rem;
+        right: -40rem;
+        width: 70rem;
+        height: 70rem;
+    }
+    .small-yellow-circle{
+        top: 250rem;
+    }
+    .column-lg-reverse{
+        flex-direction: column-reverse;
+    }
     .display-none{
         display: none;
     }
@@ -33,14 +54,15 @@
         background-position: -10rem -22rem;
         height: 61rem;
     }
-    .header-content{
+    .header-content,
+    .works-section,
+    .services,
+    .comments
+    {
         padding-top: 10rem;
     }
     .main{
         background-position: center -10rem;
-    }
-    .services{
-        padding-top: 10rem;
     }
     .services__content{
         display: flex;
@@ -66,8 +88,8 @@
     .service{
         padding: 6rem 2rem 5rem 2rem;
     }
-    .comments{
-        padding-top: 10rem;
+    .works__wrapper{
+        margin: 0 auto;
     }
 }
 /* 
@@ -76,6 +98,18 @@
 
 */
 @media screen and (max-width: 768px) {
+    .big-yellow-circle{
+        top: 175rem;
+        right: -25rem;
+        width: 50rem;
+        height: 50rem;
+    }
+    .small-yellow-circle{
+        top: 270rem;
+        width: 25rem;
+        height: 25rem;
+        left: -15rem;
+    }
     .navbar{
         display: none;
     }
@@ -111,10 +145,19 @@
 
 */
 @media screen and (max-width: 576px) {
+    .big-yellow-circle{
+        top: 220rem;
+    }
+    .small-yellow-circle{
+        top: 325rem;
+    }
     .section__title{
         font-size: 3.5rem;
     }
-
+    .works__wrapper{
+        width: auto;
+        gap: 2rem;
+    }
 }
 /* 
 
@@ -122,6 +165,12 @@
 
 */
 @media screen and (max-width: 470px) {
+    .big-yellow-circle{
+        display: none;
+    }
+    .small-yellow-circle{
+        display: none;
+    }
     .header{
         background-position: -6rem -28rem;
         height: 66rem;
@@ -136,6 +185,16 @@
     }
     .header__btn{
         width: 100%;
+    }
+    .services__form{
+        width: 90%;
+    }
+    .work{
+        width: 100%;
+    }
+    .works__wrapper{
+        gap: 3rem;
+        background-image: none;
     }
 }
 

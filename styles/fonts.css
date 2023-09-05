@@ -3,16 +3,8 @@
     src: url(../fonts/MuseoSans_500.otf) format(truetype);
 }
 @font-face {
-    font-family: 'Open Reqular';
-    src: url(../fonts/OpenSans_Condensed-Regular.ttf) format(truetype);
-}
-@font-face {
     font-family: 'Open Bold';
     src: url(../fonts/OpenSans_SemiCondensed-Bold.ttf) format(truetype);
-}
-@font-face {
-    font-family: 'Comfortaa Reqular';
-    src: url(../fonts/Comfortaa-Regular.ttf) format(truetype);
 }
 @font-face {
     font-family: 'Comfortaa Medium';

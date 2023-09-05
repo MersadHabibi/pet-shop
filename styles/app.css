@@ -16,7 +16,6 @@
     --comfortaa-reqular: 'Comfortaa Reqular';
     --comfortaa-medium: 'Comfortaa Medium';
     --comfortaa-bold: 'Comfortaa Bold';
-    --first-transition: all 150ms ease-in;
 }
 html {
     font-size: 62.5%; /* 10px */
@@ -184,7 +183,7 @@ a {
     backdrop-filter: blur(2rem);
     padding: 4rem 4rem;
     box-shadow: 0 0 2rem rgba(0,0,0,0.1);
-    transition: var(--first-transition);
+    transition: all 150ms ease-in;
     z-index: 10000;
     display: none;
 }
@@ -250,6 +249,20 @@ a {
 }
 .mobile-navbar__link{
     color: #363636;
+}
+.cover{
+    position: fixed;
+    top: 0;left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.2);
+    z-index: -1;
+    opacity: 0;
+    transition: all 150ms ease-in;
+}
+.cover--active{
+    z-index: 9999;
+    opacity: 1;
 }
 
 /* 

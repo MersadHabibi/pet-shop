@@ -1,6 +1,25 @@
 @media screen and (max-width: 2000px) {
-    .main{
-        background-size: 220rem;
+    .blue-shape__wrapper{
+        top: 8rem;
+        left: -37rem;
+        width: 140%;
+    }
+    .header-shape__wrapper{
+        left: -10rem;
+    }
+}
+@media screen and (max-width: 1800px) {
+    .blue-shape__wrapper{
+        left: -40rem;
+        width: 150%;
+    }
+    .header-shape__wrapper{
+        top: -35rem;
+    }
+}
+@media screen and (max-width: 1550px) {
+    .header-shape__wrapper{
+        top: -33rem;
     }
 }
 @media screen and (max-width: 1400px) {
@@ -10,6 +29,13 @@
     .header{
         background-size: 180rem;
         background-position: -10rem -35rem;
+    }
+    .blue-shape__wrapper{
+        left: -35rem;
+    }
+    .header-shape__wrapper{
+        width: 185rem;
+        left: -17rem;
     }
 }
 /* 
@@ -27,7 +53,26 @@
         background-size: 150rem;
         background-position: -10rem -22rem;
     }
+    .blue-shape__wrapper{
+        left: -28rem;
+    }
+    .header-shape__wrapper{
+        width: 176rem;
+        left: -22rem;
+        top: -32rem;
+    }
 
+}
+/* 
+
+    ----
+
+*/
+@media screen and (max-width: 1100px) {
+    .header-shape__wrapper{
+        left: -26rem;
+        top: -32rem;
+    }
 }
 /* 
 
@@ -60,9 +105,6 @@
     .comments
     {
         padding-top: 10rem;
-    }
-    .main{
-        background-position: center -10rem;
     }
     .services__content{
         display: flex;
@@ -117,7 +159,20 @@
     .footer .services__form{
         width: 30rem;
     }
+    .blue-shape__wrapper{
+        left: -22rem;
+    }
+    .header-shape__wrapper{
+        width: 175rem;
+        left: -10rem;
+        top: -38rem;
+    }
 }
+/* 
+
+    ----
+
+*/
 /* 
 
     ----
@@ -175,6 +230,21 @@
     }
     .logo__box{
     }
+    .blue-shape__wrapper{
+        left: -18rem;
+    }
+    .header-shape__wrapper{
+        width: 177rem;
+        top: -37rem;
+    }
+}
+/* 
+
+    ----
+
+*/
+@media screen and (max-width: 640px){
+
 }
 /* 
 
@@ -211,6 +281,9 @@
     }
     .social-media-wrapper{
         justify-content: center;
+    }
+    .blue-shape__wrapper{
+        display: none;
     }
 }
 /* 
@@ -261,6 +334,12 @@
 
 
 
-@media screen and (min-width: 768px) {
-
+@media screen and (min-width: 2350px) {
+    .header-shape__wrapper,
+    .blue-shape__wrapper{
+        display: none;
+    }
+    .header{
+        background-color: var(--first-color);
+    }
 }

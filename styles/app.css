@@ -20,6 +20,7 @@
 html {
     font-size: 62.5%; /* 10px */
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 body {
     line-height: 1.6;
@@ -64,6 +65,32 @@ a {
         shapes
 
 */
+.header-shape__wrapper{
+    position: absolute;
+    top: -40rem;
+    left: -20rem;
+    width: 120%;
+    height: 100rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-shape__wrapper svg{
+    width: 100%;
+}
+.blue-shape__wrapper{
+    position: absolute;
+    top: 10rem;
+    left: -53rem;
+    width: 150%;
+    height: 100rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.blue-shape__wrapper svg{
+    width: 100%;
+}
 .small-yellow-circle{
     position: absolute;
     top: 220rem;
@@ -92,10 +119,7 @@ a {
 
 
 .header{
-    background-image: url(../images/shapes/header-shape.svg);
-    background-repeat: no-repeat;
-    background-position: -10rem -43rem;
-    background-size: 200rem;
+    position: relative;
 }
 /* 
 
@@ -333,15 +357,10 @@ a {
 ------------
 */
 .main{
-    background-image: url(../images/shapes/blue-shape.svg);
-    background-repeat: no-repeat;
-    background-position: center 0;
-    background-size: 250rem;
     position: relative;
 }
 .services{
     padding-top: 20rem;
-    
 }
 .services__content{
 
@@ -439,6 +458,7 @@ a {
 }
 .comments{
     padding-top: 20rem;
+    transform: translate3d(0);
 }
 .comments .section__title{
     text-align: center;
@@ -459,7 +479,7 @@ a {
     background-repeat: no-repeat;
     background-position: -17rem -5rem;
     background-size: 100rem;
-    box-shadow: 0 3px 6px rgba(50,32,206,.50);
+    box-shadow: 0 3px 6px rgba(50,32,206,.30);
 }
 .swiper-slide:nth-child(odd) .comment{
     background-color: var(--first-color);
@@ -656,7 +676,7 @@ a {
 .footer-shape{
     margin-top: 10rem;
     width: 100%;
-    height: 10rem;
+    height: 7vw;
     background-image: url(../images/shapes/footer-shape.svg);
     background-size: cover;
     background-position: bottom;

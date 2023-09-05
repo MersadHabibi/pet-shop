@@ -607,3 +607,29 @@ a {
     bottom: 0;
     left: 2rem;
 }
+/* 
+
+    company logos
+
+*/
+.company-logos-section{
+    padding-top: 10rem;
+}
+.company-logos-section__title{
+    font-family: var(--open-bold);
+    text-align: center;
+    color: #B1BBCD;
+    margin-bottom: 4rem;
+}
+.logos__wrapper{
+    display: flex;
+    height: 8rem;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo__box{
+    height: 100%;
+}
+.logo__image{
+    height: 100%;
+}

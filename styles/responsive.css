@@ -164,6 +164,11 @@
     .event__content{
         height: 35rem;
     }
+    .logos__wrapper{
+        height: 6rem;
+    }
+    .logo__box{
+    }
 }
 /* 
 
@@ -187,6 +192,10 @@
     .event__content{
         height: auto;
         padding-bottom: 10rem;
+    }
+    .logos__wrapper{
+        height: 4.5rem;
+        flex-wrap: wrap;
     }
 }
 /* 

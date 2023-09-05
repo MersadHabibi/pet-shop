@@ -91,7 +91,7 @@ body{
     height: 10rem;
 }
 /* sm */
-@media (min-width: 576px) {
+@media (min-width: 577px) {
     .container {
         width: 540px;
     }
@@ -145,7 +145,7 @@ body{
     }
 }
 /* md */
-@media (min-width: 768px) {
+@media (min-width: 769px) {
     .container {
         width: 720px;
     }
@@ -199,7 +199,7 @@ body{
     }
 }
 /* lg */
-@media (min-width: 992px) {
+@media (min-width: 993px) {
     .container {
         width: 960px;
     }
@@ -253,7 +253,7 @@ body{
     }
 }
 /* xl */
-@media (min-width: 1200px) {
+@media (min-width: 1201px) {
     .container {
         width: 1140px;
     }
@@ -307,7 +307,7 @@ body{
     }
 }
 /* xxl */
-@media (min-width: 1400px) {
+@media (min-width: 1401px) {
     .container {
         width: 1370px;
     }

@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1666" height="616" viewBox="0 0 1666 616">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="1666" height="616" fill="none"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" y1="0.5" x2="0.79" y2="0.535" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#2970f1"/>
+      <stop offset="1" stop-color="#153879" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_97" data-name="Group 97" transform="translate(-184 -3973)">
+    <g id="Repeat_Grid_1" data-name="Repeat Grid 1" transform="translate(184 3973)" clip-path="url(#clip-path)">
+      <g transform="translate(-732 -3973)">
+        <circle id="Ellipse_31" data-name="Ellipse 31" cx="308" cy="308" r="308" transform="translate(732 3973)" opacity="0.3" fill="url(#linear-gradient)" style="mix-blend-mode: multiply;isolation: isolate"/>
+      </g>
+      <g transform="translate(-522 -3973)">
+        <circle id="Ellipse_31-2" data-name="Ellipse 31" cx="308" cy="308" r="308" transform="translate(732 3973)" opacity="0.3" fill="url(#linear-gradient)" style="mix-blend-mode: multiply;isolation: isolate"/>
+      </g>
+      <g transform="translate(-312 -3973)">
+        <circle id="Ellipse_31-3" data-name="Ellipse 31" cx="308" cy="308" r="308" transform="translate(732 3973)" opacity="0.3" fill="url(#linear-gradient)" style="mix-blend-mode: multiply;isolation: isolate"/>
+      </g>
+      <g transform="translate(-102 -3973)">
+        <circle id="Ellipse_31-4" data-name="Ellipse 31" cx="308" cy="308" r="308" transform="translate(732 3973)" opacity="0.3" fill="url(#linear-gradient)" style="mix-blend-mode: multiply;isolation: isolate"/>
+      </g>
+      <g transform="translate(108 -3973)">
+        <circle id="Ellipse_31-5" data-name="Ellipse 31" cx="308" cy="308" r="308" transform="translate(732 3973)" opacity="0.3" fill="url(#linear-gradient)" style="mix-blend-mode: multiply;isolation: isolate"/>
+      </g>
+      <g transform="translate(318 -3973)">
+        <circle id="Ellipse_31-6" data-name="Ellipse 31" cx="308" cy="308" r="308" transform="translate(732 3973)" opacity="0.3" fill="url(#linear-gradient)" style="mix-blend-mode: multiply;isolation: isolate"/>
+      </g>
+      <g transform="translate(528 -3973)">
+        <circle id="Ellipse_31-7" data-name="Ellipse 31" cx="308" cy="308" r="308" transform="translate(732 3973)" opacity="0.3" fill="url(#linear-gradient)" style="mix-blend-mode: multiply;isolation: isolate"/>
+      </g>
+      <g transform="translate(738 -3973)">
+        <circle id="Ellipse_31-8" data-name="Ellipse 31" cx="308" cy="308" r="308" transform="translate(732 3973)" opacity="0.3" fill="url(#linear-gradient)" style="mix-blend-mode: multiply;isolation: isolate"/>
+      </g>
+    </g>
+  </g>
+</svg>

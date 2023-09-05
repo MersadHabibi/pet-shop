@@ -91,6 +91,29 @@
     .works__wrapper{
         margin: 0 auto;
     }
+    .event-section{
+        flex-direction: column;
+        padding: 5rem 3rem 3rem 3rem;
+    }
+    .event__image-box{
+        width: 100%;
+    }
+    .event__content{
+        width: 100%;
+        height: 32rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 3rem 0 0 0;
+    }
+    .event__btn{
+        left: 0;right: 0;
+        margin: auto;
+        width: 100%;
+        height: 6rem;
+        border-radius: 1.5rem;
+    }
 }
 /* 
 
@@ -138,6 +161,9 @@
     .swiper-pagination{
         display: block;
     }
+    .event__content{
+        height: 35rem;
+    }
 }
 /* 
 
@@ -157,6 +183,10 @@
     .works__wrapper{
         width: auto;
         gap: 2rem;
+    }
+    .event__content{
+        height: auto;
+        padding-bottom: 10rem;
     }
 }
 /* 

@@ -273,9 +273,6 @@ a {
     flex-direction: column;
     gap: 1.5rem;
 }
-.mobile-navbar__item{
-
-}
 .mobile-navbar__link{
     color: #363636;
 }
@@ -303,8 +300,6 @@ a {
     color: var(--white);
     padding-top: 17rem;
 }
-.header-description{
-}
 .header__title{
     font-family: var(--Museo);
     font-size: 5rem;
@@ -329,9 +324,6 @@ a {
 }
 .header__btn:hover{
     background-color: #1d6cff;
-}
-.header__call{
-
 }
 .header-image{
     display: flex;
@@ -371,9 +363,6 @@ a {
 }
 .services{
     padding-top: 20rem;
-}
-.services__content{
-
 }
 .services__caption{
     margin: 2rem 0 3rem 0;
@@ -510,9 +499,6 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-}
-.profile-image{
-
 }
 .comment__name{
     font-family: var(--comfortaa-medium);
@@ -722,12 +708,6 @@ a {
 .footer-list__link{
     color: var(--white);
 }
-.footer-form{
-
-}
-.footer-list__title{
-
-}
 .footer-form__caption{
     color: var(--white);
 }
@@ -750,9 +730,6 @@ a {
 }
 .social-media:hover{
     box-shadow: inset 0 3px 6px rgba(0,0,0,.16);
-}
-.social-media__icon{
-
 }
 .footer .services__form{
     width: 100%;
